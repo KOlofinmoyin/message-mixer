@@ -1,16 +1,20 @@
 # Message Mixer
+![super-encoder](https://user-images.githubusercontent.com/33905131/132507161-b1fb441d-4118-4b1a-9f12-d4960ab8b13b.gif)
+
 
 Message Mixer Inc. offers a message-encryption service that transforms input text, using various ciphers, and displays the encrypted message to the console.
 
 There are three encryption methods provided by this service:
 
-+ A “Caesar Cipher” in which the characters of the input message are shifted alphabetically by a given amount.
-+ A “Symbol Cipher” in which select characters from the input message are replaced with visually similar symbols.
-+ A “Reverse Cipher” in which each word of the input message is reversed in place.
++ A `Caesar Cipher` in which the characters of the input message are shifted alphabetically by a given amount.
++ A `Symbol Cipher` in which select characters from the input message are replaced with visually similar symbols.
++ A `Reverse Cipher` in which each word of the input message is reversed in place.
 
 To use this service, run the command below:
 
-```node message-mixer.js ['caesar'|'symbol'|'reverse'] [amount]```
+```
+node message-mixer.js ['caesar'|'symbol'|'reverse'] [amount]
+```
 
 Here are some examples of running this program:
 
